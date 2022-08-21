@@ -19,7 +19,7 @@
   		// MS ACCESS and MYSQL DBASE CONNECTIVITY
 
 	  	Class.forName("com.mysql.jdbc.Driver");	
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/charm","root","root");
+		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/charm","root","");
       	String sql="";
 
 	}
