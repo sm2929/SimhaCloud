@@ -30,7 +30,7 @@ import javax.servlet.http.Part;
 @MultipartConfig(maxFileSize = 16177215) 
 public class UserRegister extends HttpServlet {
 
-    private String dbURL = "jdbc:mysql://localhost:3306/filtering";
+    private String dbURL = "jdbc:mysql://192.168.225.245:3306/charm";
     private String dbUser = "root";
     private String dbPass = "root";
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
