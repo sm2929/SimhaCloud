@@ -11,7 +11,7 @@
 	int id =  Integer.parseInt(request.getParameter("imgid"));
 	try{      
     	Class.forName("com.mysql.jdbc.Driver").newInstance();
-    	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/charm","root","root");      
+    	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/charm","root","");      
     	Statement st=con.createStatement();
     	String strQuery = "select imagess from charm_owner where id='"+id+"'" ;
 // 		String strQuery = "select imagew from image where id=+id ORDER BY ";
